@@ -21,7 +21,6 @@ public class PlaywrightPopupHandler {
 
     }
 
-
     public void closePrompt(Page page, Locator locator, Boolean accept, String input) {
         //Handler that handles the Alert
         page.onDialog(dialog -> {
@@ -41,5 +40,9 @@ public class PlaywrightPopupHandler {
             PlaywrightHelper.click(locator);
         });
         return newTab;
+    }
+
+    public static void bringPageToFront(Page page) {
+        page.bringToFront();
     }
 }
