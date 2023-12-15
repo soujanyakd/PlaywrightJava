@@ -92,4 +92,12 @@ public class PlaywrightHelper {
     public static String getAttributeValue(Locator locator, String attribute) {
         return locator.getAttribute(attribute);
     }
+
+    public static String getTextContentValue(Locator locator) {
+        return locator.textContent();
+    }
+
+    public static String getInnerTextValue(Locator locator) {
+        return locator.innerText();
+    }
 }
