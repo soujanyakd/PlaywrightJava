@@ -1,14 +1,14 @@
-package com.api.test;
+package apitest;
 
-import com.api.util.APIResponseHandler;
-import com.api.util.Requests;
-import com.api.util.TestBase;
+import Base.APITestBase;
+import apiutils.APIResponseHandler;
+import apiutils.Requests;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.options.RequestOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class GetAPITest extends TestBase {
+public class GetAPITest extends APITestBase {
 
     @Test
     public void getAPIRequestWithQueryParameterTest() {
