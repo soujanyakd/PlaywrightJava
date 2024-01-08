@@ -1,5 +1,3 @@
-package uitest;
-
 import Base.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;

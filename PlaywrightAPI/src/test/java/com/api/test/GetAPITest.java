@@ -8,6 +8,9 @@ import com.microsoft.playwright.options.RequestOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class GetAPITest extends TestBase {
 
     @Test
