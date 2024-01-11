@@ -11,12 +11,12 @@ This Project Has 3 Sub-projects:
 - PlaywrightUIwithAPI : This project can be used for both UI and API Automation Testing.
 
 
-#Folder Details
--src/main/java/base : This Contains base classes
--src/main/java/pages : This Contains POM classes
--src/main/java/util : This Contains Playwright Helper classes
--src/test/java/uitest : This Contains UI Test classes
--src/test/java/apitest : This contains API Test classes
+### Folder Details
+- src/main/java/base : This Contains base classes
+- src/main/java/pages : This Contains POM classes
+- src/main/java/util : This Contains Playwright Helper classes
+- src/test/java/uitest : This Contains UI Test classes
+- src/test/java/apitest : This contains API Test classes
 
 ## Prerequisites
 
